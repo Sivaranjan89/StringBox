@@ -2,10 +2,11 @@
 
 # Welcome to StringBox
 
-## You can manage all your database operations with this library. Every information will be saved as Strings only in this library. 
-This library can convert your images also to strings. 
-You can use the encryption options in StringBoxUtils to encrypt your data. 
-Check the below methods and enjoy using StringBox
+###  You can manage all your database operations with this library. 
+### Every information will be saved as Strings only. 
+### This library can convert your images also to strings. 
+### You can use the encryption options in StringBoxUtils to encrypt your data. 
+### Check the below methods and enjoy using StringBox
 
 # How to Install Plugin
 Add the below in your root build.gradle(project) at the end of repositories:<br />
