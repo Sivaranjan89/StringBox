@@ -18,7 +18,7 @@ Add the below in your root build.gradle(project) at the end of repositories:<br 
             
 Add the dependency in build.gradle(module) : <br />
 <b>dependencies { </b><br />
-<b>implementation 'com.github.Sivaranjan89:Keys:1.3'</b><br />
+<b>implementation 'com.github.Sivaranjan89:stringbox:1.0'</b><br />
 <b>}</b><br />
 
 
