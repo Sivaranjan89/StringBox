@@ -1,5 +1,6 @@
 package com.droid.stringbox;
 
+import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
@@ -54,6 +55,17 @@ public class StringBoxUtils {
             byte [] encodeByte=Base64.decode(bitmapStr,Base64.DEFAULT);
             Bitmap bitmap=BitmapFactory.decodeByteArray(encodeByte, 0, encodeByte.length);
             return bitmap;
+        } catch(Exception e) {
+            e.getMessage();
+            return null;
+        }
+    }
+
+    public static Drawable drawableFromString(String drawableStr) {
+        try {
+            byte [] encodeByte=Base64.decode(drawableStr,Base64.DEFAULT);
+            Bitmap bitmap=BitmapFactory.decodeByteArray(encodeByte, 0, encodeByte.length);
+            return new BitmapDrawable(Resources.getSystem(), bitmap);
         } catch(Exception e) {
             e.getMessage();
             return null;
