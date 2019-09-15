@@ -25,7 +25,7 @@ Add the dependency in build.gradle(module) : <br />
 
 ### Set your own Database name
 StringBox.setDatabaseName(String name)
-####This is optional. Even if your don't spcify a name, It will create a database with a default name.
+#### This is optional. Even if your don't spcify a name, It will create a database with a default name.
 
 ### Create Database
 StringBox.getInstance(this)
@@ -46,8 +46,8 @@ HashMap< String, String > map = new HashMap<>(); </br>
         map.put(COLUMN_DOB, "26/04/1989"); </br>  
         StringBox.getInstance(this).addRow(TABLE_NAME, map); </br>  
 #### The above code will create one row in the table name specified. 
-####Since the table has 3 columns, We specify in the hashmap as to which value belongs to which column.
-####COLUMN_GENDER -> "Male" which will insert the value to the column GENDER for this row
+#### Since the table has 3 columns, We specify in the hashmap as to which value belongs to which column.
+#### COLUMN_GENDER -> "Male" which will insert the value to the column GENDER for this row
   
  
 ### Get All rows from one Specific Column
