@@ -1,0 +1,2 @@
+include ':app', ':stringbox2', ':stringbox'
+rootProject.name='StringBox'
